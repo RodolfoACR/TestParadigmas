@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+}
+
+input,
+select {
+  margin: 10px;
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input.error {
+  border-color: red;
+  border-width: 3px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+.btnAdd {
+  background-color: darkgrey;
+}
+
+button:active {
+  background-color: black;
+  transform: translateY(2px);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.infant {
+  background-color: gold;
+}
+
+.teen {
+  background-color: darkkhaki;
+}
+
+.adult {
+  background-color: darkorange;
+  color: white;
+}
